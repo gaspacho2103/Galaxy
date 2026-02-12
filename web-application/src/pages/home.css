@@ -1,0 +1,353 @@
+body {
+    background-color: #24272e;
+}
+
+.main {
+    display: flex;
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: 5px auto;
+
+    justify-content: space-between;
+
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  position: relative;
+  gap: 20px; /* Отступ между сайдбаром и контентом */
+}
+
+.sidebar {
+  width: 27%;
+  min-height: calc(100vh - 110px);
+  position: sticky;
+  align-self: flex-start;
+}
+
+.posts {
+  flex: 1;
+  min-height: calc(100vh - 110px); /* Минимальная высота */
+}
+
+.header.light {
+    background-color: #d6d6d6;
+}
+
+.logo.light h1 {
+    color: #24272e;
+}
+
+.input-wrapper.light input {
+    background: #24272e;
+    color: #d6d6d6;
+}
+
+.input-wrapper.light input::placeholder {
+    color: #d6d6d6;
+}
+
+.header-button.light {
+    background-color: #cccccc;
+}
+
+.p-desc-input.light {
+    background: #cccccc;
+    color: #24272e;
+}
+
+.p-desc-input.light::placeholder {
+    color: #6e7177;
+}
+
+.profile-title-input.light {
+    background: #cccccc;
+    color: #24272e;
+}
+
+.no-comments.light {
+    color: #24272e;
+}
+
+.profile-title-input.light::placeholder {
+    color: #6e7177;
+}
+
+.header-button.light:hover {
+    background-color: #11d171;
+}
+
+.aside.light {
+    background-color: #d6d6d6;
+
+    box-shadow: 0px 4px 6px #d6d6d6;
+}
+
+.aside .title.light {
+    color: #24272e;
+
+    border-bottom: 1px solid #acacac;
+}
+
+.aside .list.light li a {
+    color: #24272e;
+}
+
+.aside .list.light li a svg {
+    fill: #24272e;
+}
+
+.aside .list li a:hover {
+    color: #11d171; /* Цвет текста при наведении */
+}
+
+.aside .list li a:hover svg {
+    fill: #11d171;
+}
+
+
+.post.light {
+    background-color: #d6d6d6;
+
+    box-shadow: 0px 4px 6px #d6d6d6;
+}
+
+.account-wrapper.light h5 {
+    color: #24272e;
+}
+
+.account-wrapper.light h5:hover {
+    color: #11d171;
+}
+
+.post-time.light {
+    color: #6e7177;
+}
+
+.post-title.light {
+    color: #24272e;
+}
+
+.post-desc.light {
+    color: #24272e;
+}
+
+.active-count.light {
+    color: #24272e;
+}
+
+.comments-wrapper.light h3 {
+    color: #24272e;
+}
+
+.comment .account-wrapper.light h5 {
+    color: #24272e;
+}
+
+.comment .account-wrapper.light h5:hover {
+    color: #11d171;
+}
+
+.comment .content.light {
+    color: #24272e;
+}
+
+.home.light {
+    background-color: #cccccc;
+    color: #24272e;
+}
+
+.profile-card.light {
+    background-color: #d6d6d6;
+    box-shadow: 0px 4px 6px #d6d6d6;
+}
+
+.profile-title.light {
+    color: #24272e;
+}
+
+.info-card.light {
+    background: #cccccc;
+}
+
+.edit-wrapper.light button {
+    background: #cccccc;
+}
+
+.edit-wrapper.light button svg {
+    fill: #24272e;
+}
+
+.info-card.light p {
+    color: #24272e;
+}
+
+.button-wrapper.light button {
+    color: #24272e;
+}
+
+.subs-list.light a {
+    color: #24272e;
+}
+
+.subs-list.light a:hover {
+    color: #11d171;
+}
+
+.subscribe-form.light {
+    color: #24272e;
+    background: #a9a9a9;
+}
+
+.p-desc.light {
+    color: #24272e;
+}
+
+.subs-form.light {
+    background: #cccccc;
+}
+
+.subs-form-p.light {
+    color: #24272e;
+}
+
+.subs-form-p.dark {
+    color: #ebebeb;
+}
+
+.content.light {
+    color: #24272e;
+}
+
+.form-title.light {
+    color: #24272e;
+}
+
+.write-form.light {
+    color: #24272e;
+    background: #a9a9a9;
+}
+
+.form__label.light {
+    color: #24272e;
+}
+
+.form__input.light:focus ~ .form__label.light,
+.form__input.light:not(:placeholder-shown) ~ .form__label.light {
+    top: -18px;
+    font-size: 12px;
+    color: #24272e;
+}
+
+.form__input.light {
+    color: #24272e;
+
+    border-bottom: 1px solid #24272e;
+}
+
+.contacts-form.light {
+    background: #a9a9a9;
+    color: #24272e;
+}
+
+.contacts-list.light a {
+    color: #24272e;
+}
+
+.contacts-list.light svg {
+    fill: #24272e;
+}
+
+.account-wrapper .username.light {
+    color: #24272e;
+
+    font-weight: 700;
+}
+
+.account-wrapper .username.dark {
+    color: #ebebeb;
+
+    font-weight: 700;
+}
+
+.comment-title.light {
+    color: #24272e;
+}
+
+.comment-input.light {
+    color: #24272e;
+    border: 1px solid #24272e;
+    border-radius: 6px;
+}
+
+.c-sender-button.light {
+    border: 1px solid #24272e;
+
+    border-radius: 5px;
+}
+
+.c-sender-button.light:hover {
+    background: #24272e;
+}
+
+.load-text.light {
+    color: #24272e;
+}
+
+
+/* Стили для состояний загрузки и ошибок */
+.loading-container, .error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loading-container p {
+    color: #ebebeb;
+
+    font-weight: 700;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #11d171;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-container button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #11d171;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-container button:hover {
+  background-color: #11d171;
+}

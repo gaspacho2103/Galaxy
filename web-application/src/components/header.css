@@ -1,0 +1,120 @@
+/* Основные стили */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #282c34; /* Темный фон */
+    padding: 20px 0; /* Отступы сверху и снизу */
+    color: #ebebeb; /* Цвет текста */
+
+    position: fixed;
+
+    width: 100%;
+
+    z-index: 1000;
+
+}
+
+.container {
+    display: flex; /* Выравнивание элементов по горизонтали */
+    justify-content: space-between; /* Распределение пространства между элементами */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+    padding: 0 20px; /* Горизонтальные отступы */
+
+    width: 100%;
+}
+
+.logo {
+    display: flex; /* Выравнивание логотипа и текста */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    
+    margin: 0 auto;
+
+    font-family: "Exo", sans-serif;
+
+    color: #11d171;
+}
+
+.logo h1 {
+    margin: 0; /* Убираем отступы у заголовка */
+    font-size: 32px; /* Размер шрифта */
+
+    letter-spacing: 1.6px;
+
+    /* text-transform: uppercase; */
+}
+
+.logo img {
+    width: 40px; /* Ширина изображения */
+    height: auto; /* Автоматическая высота */
+    margin-left: 10px; /* Отступ слева от изображения */
+}
+
+.input-wrapper {
+    flex-grow: 0.85; /* Поле поиска займет оставшееся пространство */
+
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.input-wrapper input {
+    width: 80%;
+    padding: 10px; /* Отступы внутри поля */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругление углов */
+    font-size: 16px; /* Размер шрифта */
+
+    margin: 0 auto;
+}
+
+.input-wrapper input::placeholder {
+    color: #aaa; /* Цвет текста плейсхолдера */
+}
+
+.buttons-wrapper {
+    display: flex; /* Выравнивание кнопок по горизонтали */
+    
+    margin: 0;
+
+    gap: 15px; /* Установите расстояние между элементами */
+}
+
+.header-button {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    border-style: none;
+    background-color: #323842;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+
+.header-button:hover {
+    background-color: #11d171;
+}
+
+.header-button svg {
+    fill: #11d171;
+    transition: 0.4s all;
+}
+
+.header-button:hover svg {
+    fill: #282c34;
+}

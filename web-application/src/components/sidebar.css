@@ -1,0 +1,76 @@
+aside {
+    background-color: #282c34;
+    padding: 20px;
+    width: 27%;
+    height: 75vh;
+
+    margin: 15px auto;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 6px #282c34;
+
+    position: sticky;
+    top: 95px;
+    overflow-y: auto;
+
+    z-index: 1000;
+}
+
+.navigate {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navigate .list {
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0; /* Убираем отступы */
+
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+.navigate .list li a {
+    color: #ebebeb; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: block; /* Делаем ссылки блочными для удобства клика */
+    padding: 10px 0; /* Отступы для ссылок */
+
+    font-size: 22px;
+
+    margin: auto auto;
+
+    display: flex;
+
+    transition: 0.4s all;
+}
+
+.navigate .list li a svg {
+    fill: #ebebeb;
+
+    margin: auto 5px;
+
+    transition: 0.4s all;
+}
+
+.navigate .list li a:hover {
+    color: #11d171; /* Цвет текста при наведении */
+}
+
+.navigate .list li a:hover svg {
+    fill: #11d171;
+}
+
+.title {
+    font-size: 24px;
+
+    padding: 10px;
+
+    border-bottom: 1px solid #696f7a;
+
+    color: #ebebeb;
+
+    
+
+}

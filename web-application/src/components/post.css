@@ -1,0 +1,213 @@
+.posts {
+    width: 70%;
+    margin: 90px auto;
+
+    border-radius: 10px;
+}
+
+.post {
+    background: #282c34;
+    color: #ebebeb; /* Цвет текста */
+    padding: 20px; /* Отступы внутри поста */
+    border-radius: 10px; /* Закругленные углы */
+    width: 100%; /* Ширина поста */
+
+    box-shadow: 0px 4px 6px #282c34;
+}
+
+.post + .post {
+    margin: 15px 0;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-between; /* Размещаем элементы по краям */
+    align-items: center; /* Центрируем по вертикали */
+}
+
+.account-wrapper {
+    display: flex;
+    align-items: center; /* Центрируем аватарку и ник по вертикали */
+
+    padding: 12px 0px;
+}
+
+.account-wrapper h5 {
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+
+.account-wrapper h5:hover {
+    color: #11d171;
+}
+
+.account-wrapper img {
+    width: 38px; /* Ширина аватарки */
+    height: 38px; /* Высота аватарки */
+    border-radius: 50%; /* Круглая аватарка */
+    margin-right: 10px; /* Отступ справа от аватарки */
+}
+
+.post-time {
+    color: #a9a9a9; /* Цвет текста для времени публикации */
+
+    margin-bottom: 5px;
+}
+
+.post-title {
+    font-size: 25px; /* Размер шрифта заголовка поста */
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.post-desc {
+    font-size: 17px; /* Размер шрифта описания поста */
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.media-content {
+    width: 100%; /* Ширина изображения на всю ширину контейнера */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 8px; /* Закругленные углы изображения */
+    margin-bottom: 10px; /* Отступ снизу изображения */
+}
+
+.audio-content {
+    width: 100%;
+}
+
+.active-wrapper {
+    display: flex;
+    justify-content: space-between; /* Размещаем кнопки по краям */
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+.active-btn {
+    cursor: pointer; /* Курсор в виде указателя при наведении на кнопки активностей */
+    display: flex;
+    align-items: center;
+
+    margin: 20px 0px;
+}
+
+.active-btn svg {
+   margin-right: 5px; /* Отступ справа от иконки в кнопке активности */ 
+   
+   transition: fill 0.3s ease;
+}
+
+.active-count {
+   font-size: 18px; 
+}
+
+.comment {
+    margin: 20px 0px;
+}
+
+.comment .account-wrapper {
+    padding: 0px;
+}
+
+.comment .account-wrapper h5 {
+    font-size: 16px;
+}
+
+.comment .account-wrapper img {
+    width: 32px; /* Ширина аватарки */
+    height: 32px; /* Высота аватарки */
+}
+
+.comment .content {
+    margin-bottom: 20px;
+
+    padding: 0px 42px;
+}
+
+.add-comment {
+    width: 100%;
+
+    margin: 15px 0px;
+
+    display: flex;
+}
+
+.add-comment input {
+    width: 90%;
+    padding: 8px;
+    font-size: 19px;
+
+    background: transparent;
+
+    border-radius: 6px;
+    border: 1px solid #ebebeb;
+
+    color: #ebebeb;
+}
+
+.add-comment button {
+    width: 5%;
+    margin-left: 10px;
+
+    background: transparent;
+
+    border-style: none;
+
+    cursor: pointer;
+
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+
+    transition: 0.4s all;
+}
+
+.add-comment button:hover {
+    background: #11d171;
+}
+
+.add-comment button:hover svg {
+    fill: #ebebeb;
+}
+
+.add-comment button svg {
+    fill: #11d171;
+}
+
+.no-posts {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.dark .no-posts {
+  color: #ebebeb;
+}
+
+.light .no-posts {
+    color: #282c34;
+}
+
+.comment-input:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.c-sender-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.username {
+    text-decoration: none;
+
+    transition: 0.4s all;
+}
+
+.username:hover {
+    color: #11d171;
+}
