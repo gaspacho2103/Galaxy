@@ -10,7 +10,7 @@ function Header() {
       <header className={`header ${theme}`}>
         <div className="container">
             <div className={`logo ${theme}`}>
-                <h1>Swagger</h1>
+                <h1>Galaxy</h1>
             </div>
             <div className={`input-wrapper ${theme}`}>
                 <input type="text" placeholder="Поиск..." />
