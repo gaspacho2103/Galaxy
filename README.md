@@ -54,12 +54,12 @@
 git clone https://github.com/gaspacho2103/galaxy.git
 cd galaxy
 ```
-<p align="center"> <img width="1920" height="1080" alt="clone" src="https://github.com/user-attachments/assets/b276a76f-e17d-4f91-8495-dde9714ba4b2" /><br /> <img width="581" height="371" alt="clone2" src="https://github.com/user-attachments/assets/3ad9fb17-fb7f-4eb0-84d2-8d129ab94fbd" /> </p>
+<p align="center"> <img width="1920" height="1080" alt="clone" src="https://github.com/user-attachments/assets/b276a76f-e17d-4f91-8495-dde9714ba4b2" /><br /> <img width="581" height="371" alt="clone2" src="https://github.com/user-attachments/assets/3ad9fb17-fb7f-4eb0-84d2-8d129ab94fbd" /> </p><br />
 Шаг 2: Настройка базы данных
-Откройте MySQL WorkBench (или другую СУБД), создайте подключение.
+Откройте MySQL WorkBench (или другую СУБД), создайте подключение. <br />
 
 <p align="center"> <img width="1920" height="1080" alt="mysql" src="https://github.com/user-attachments/assets/6a31d269-e149-4ec8-b280-fbf06f39bf9c" /> </p>
-Выполните скрипт galaxydb.sql — выполните все незакомментированные запросы.
+Выполните скрипт galaxydb.sql — выполните все незакомментированные запросы. <br />
 
 <p align="center"> <img width="1920" height="1080" alt="sql_import" src="https://github.com/user-attachments/assets/c7b1123c-8414-4c2d-bb1d-c522f7ced7d6" /> </p>
 Шаг 3: Бэкенд (Flask)
@@ -69,13 +69,15 @@ cd galaxy
 Установите зависимости и запустите API:
 
 bash
+```
 pip install flask flask-jwt-extended flask-cors
 python main.py
-<p align="center"> <img width="797" height="213" alt="flask_run" src="https://github.com/user-attachments/assets/81b43710-a026-431c-938b-4abeab542bd7" /> </p>
+```
+<p align="center"> <img width="797" height="213" alt="flask_run" src="https://github.com/user-attachments/assets/81b43710-a026-431c-938b-4abeab542bd7" /> </p><br/>
 Шаг 4: Фронтенд (React)
 Скопируйте IP‑адрес сервера API (он отобразится в терминале) и вставьте во все строки, где используется react-query или await fetch.
 
-<p align="center"> <img width="1920" height="1080" alt="api_ip" src="https://github.com/user-attachments/assets/d76f2c35-091c-47dc-808e-9d0aab3b855d" /> </p>
+<p align="center"> <img width="1920" height="1080" alt="api_ip" src="https://github.com/user-attachments/assets/d76f2c35-091c-47dc-808e-9d0aab3b855d" /> </p><br />
 Установите зависимости и запустите React:
 
 bash
@@ -83,18 +85,18 @@ bash
 npm install
 npm run dev
 ```
-<p align="center"> <img width="1335" height="239" alt="react_start" src="https://github.com/user-attachments/assets/86e0ebc3-ff82-4e02-a54c-2364b0f84d52" /> </p>
+<p align="center"> <img width="1335" height="239" alt="react_start" src="https://github.com/user-attachments/assets/86e0ebc3-ff82-4e02-a54c-2364b0f84d52" /> </p><br />
 ✅ Готово! Проект успешно запущен.
 
-<p align="center"> <img width="1920" height="1080" alt="final" src="https://github.com/user-attachments/assets/c03acc0c-3ee9-40a9-a857-5001507dd79b" /> </p>
+<p align="center"> <img width="1920" height="1080" alt="final" src="https://github.com/user-attachments/assets/c03acc0c-3ee9-40a9-a857-5001507dd79b" /> </p><br />
 🧭 Руководство пользователя
 🔐 Регистрация и авторизация
 После запуска создайте аккаунт.
 
-<p align="center"> <img width="1920" height="955" alt="register" src="https://github.com/user-attachments/assets/c3f74810-7ff0-459e-a3cb-c1b931dcda3d" /> </p>
+<p align="center"> <img width="1920" height="955" alt="register" src="https://github.com/user-attachments/assets/c3f74810-7ff0-459e-a3cb-c1b931dcda3d" /> </p><br />
 Затем войдите, используя указанные данные.
 
-<p align="center"> <img width="1920" height="955" alt="login" src="https://github.com/user-attachments/assets/1a2bf621-a0bf-449b-bec8-9374d96dd4b8" /> </p>
+<p align="center"> <img width="1920" height="955" alt="login" src="https://github.com/user-attachments/assets/1a2bf621-a0bf-449b-bec8-9374d96dd4b8" /> </p><br />
 🏠 Главная страница
 После входа откроется лента постов.
 В шапке — поиск, кнопка профиля, переключатель темы.
@@ -112,14 +114,14 @@ npm run dev
 ✍️ Создание поста
 Нажмите «Написать» → укажите заголовок, текст, выберите тему, при желании прикрепите файл.
 
-<p align="center"> <img width="1920" height="953" alt="new_post" src="https://github.com/user-attachments/assets/3d497d93-9900-4a7b-91e0-f98c219ccf64" /> </p>
+<p align="center"> <img width="1920" height="953" alt="new_post" src="https://github.com/user-attachments/assets/3d497d93-9900-4a7b-91e0-f98c219ccf64" /> </p><br />
 После создания появится уведомление, и пост отобразится в ленте.
 
-<p align="center"> <img width="1920" height="954" alt="post_created" src="https://github.com/user-attachments/assets/d342e787-6c74-47c0-9d27-958e85ce185c" /> </p>
+<p align="center"> <img width="1920" height="954" alt="post_created" src="https://github.com/user-attachments/assets/d342e787-6c74-47c0-9d27-958e85ce185c" /> </p><br />
 💬 Взаимодействие
 Посты можно лайкать и комментировать.
 
-<p align="center"> <img width="1920" height="955" alt="like_comment" src="https://github.com/user-attachments/assets/c66d944d-c49b-4a7b-b337-58524f51aa29" /> </p>
+<p align="center"> <img width="1920" height="955" alt="like_comment" src="https://github.com/user-attachments/assets/c66d944d-c49b-4a7b-b337-58524f51aa29" /> </p><br />
 👤 Профиль
 Чтобы перейти в свой профиль — нажмите на кнопку профиля в шапке.
 Чтобы посмотреть профиль другого пользователя — кликните на его никнейм.
@@ -132,10 +134,10 @@ npm run dev
 
 посты пользователя
 
-<p align="center"> <img width="1920" height="954" alt="profile" src="https://github.com/user-attachments/assets/89e6c332-4437-4f34-a27f-9e6e76e3dbad" /> </p>
+<p align="center"> <img width="1920" height="954" alt="profile" src="https://github.com/user-attachments/assets/89e6c332-4437-4f34-a27f-9e6e76e3dbad" /> </p><br />
 Редактирование профиля доступно по кнопке с карандашом ✏️ — можно сменить никнейм, аватар и описание.
 
-<p align="center"> <img width="1920" height="953" alt="edit1" src="https://github.com/user-attachments/assets/01c51d9e-d7bf-4238-84a5-b2521d0e7d8b" /><br /> <img width="1920" height="953" alt="edit2" src="https://github.com/user-attachments/assets/c4ca7912-58a7-486b-9829-213006148d40" /> </p>
+<p align="center"> <img width="1920" height="953" alt="edit1" src="https://github.com/user-attachments/assets/01c51d9e-d7bf-4238-84a5-b2521d0e7d8b" /><br /> <img width="1920" height="953" alt="edit2" src="https://github.com/user-attachments/assets/c4ca7912-58a7-486b-9829-213006148d40" /> </p><br />
 🎯 Для чего этот проект?
 Это мой дипломный проект и по совместительству первый полноценный прототип социальной сети (форума), на котором я:
 
