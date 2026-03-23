@@ -10,7 +10,7 @@
 
 ---
 
-### 🧐 Что это такое?
+<h3>### 🧐 Что это такое?</h3>
 
 **Galaxy** — это импровизированная социальная сеть форумного типа.  
 Проект написан на связке **React + Python Flask** с использованием **REST API**.
@@ -26,7 +26,7 @@
 
 ---
 
-### 👨‍💻 Технологии
+<h3>### 👨‍💻 Технологии</h3>
 
 <ul>
   <li><img src="https://img.icons8.com/color/18/000000/react-native.png" width="18" height="18" style="vertical-align: middle;" /> <strong>React JS</strong> — интерфейс</li>
@@ -54,49 +54,50 @@
 git clone https://github.com/gaspacho2103/galaxy.git
 cd galaxy
 ```
-<p align="center"> <img width="1920" height="1080" alt="clone" src="https://github.com/user-attachments/assets/b276a76f-e17d-4f91-8495-dde9714ba4b2" /><br /> <img width="581" height="371" alt="clone2" src="https://github.com/user-attachments/assets/3ad9fb17-fb7f-4eb0-84d2-8d129ab94fbd" /> </p><br />
+<p align="center"> <img width="1920" height="1080" alt="clone" src="https://github.com/user-attachments/assets/b276a76f-e17d-4f91-8495-dde9714ba4b2" /><br /> <img width="581" height="371" alt="clone2" src="https://github.com/user-attachments/assets/3ad9fb17-fb7f-4eb0-84d2-8d129ab94fbd" /> </p><br /><br />
 Шаг 2: Настройка базы данных
-Откройте MySQL WorkBench (или другую СУБД), создайте подключение. <br />
+Откройте MySQL WorkBench (или другую СУБД), создайте подключение. <br /><br />
 
 <p align="center"> <img width="1920" height="1080" alt="mysql" src="https://github.com/user-attachments/assets/6a31d269-e149-4ec8-b280-fbf06f39bf9c" /> </p>
-Выполните скрипт galaxydb.sql — выполните все незакомментированные запросы. <br />
+Выполните скрипт galaxydb.sql — выполните все незакомментированные запросы. <br /><br />
 
 <p align="center"> <img width="1920" height="1080" alt="sql_import" src="https://github.com/user-attachments/assets/c7b1123c-8414-4c2d-bb1d-c522f7ced7d6" /> </p>
 Шаг 3: Бэкенд (Flask)
-Откройте galaxy/rest-api/config.py и укажите в host IP‑адрес вашего сервера с базой данных.
+Откройте galaxy/rest-api/config.py и укажите в host IP‑адрес вашего сервера с базой данных. <br /><br />
 
 <p align="center"> <img width="798" height="492" alt="config" src="https://github.com/user-attachments/assets/ceddada5-8cb7-4c14-876d-64b2ef425c9b" /> </p>
-Установите зависимости и запустите API:
+Установите зависимости и запустите API:<br />
 
 bash
 ```
 pip install flask flask-jwt-extended flask-cors
 python main.py
 ```
-<p align="center"> <img width="797" height="213" alt="flask_run" src="https://github.com/user-attachments/assets/81b43710-a026-431c-938b-4abeab542bd7" /> </p><br/>
+<p align="center"> <img width="797" height="213" alt="flask_run" src="https://github.com/user-attachments/assets/81b43710-a026-431c-938b-4abeab542bd7" /> </p><br/><br />
 Шаг 4: Фронтенд (React)
-Скопируйте IP‑адрес сервера API (он отобразится в терминале) и вставьте во все строки, где используется react-query или await fetch.
+Скопируйте IP‑адрес сервера API (он отобразится в терминале) и вставьте во все строки, где используется react-query или await fetch.<br /><br />
 
-<p align="center"> <img width="1920" height="1080" alt="api_ip" src="https://github.com/user-attachments/assets/d76f2c35-091c-47dc-808e-9d0aab3b855d" /> </p><br />
-Установите зависимости и запустите React:
+<p align="center"> <img width="1920" height="1080" alt="api_ip" src="https://github.com/user-attachments/assets/d76f2c35-091c-47dc-808e-9d0aab3b855d" /> </p><br /><br />
+Установите зависимости и запустите React:<br />
 
 bash
 ```
 npm install
 npm run dev
 ```
-<p align="center"> <img width="1335" height="239" alt="react_start" src="https://github.com/user-attachments/assets/86e0ebc3-ff82-4e02-a54c-2364b0f84d52" /> </p><br />
-✅ Готово! Проект успешно запущен.
+<p align="center"> <img width="1335" height="239" alt="react_start" src="https://github.com/user-attachments/assets/86e0ebc3-ff82-4e02-a54c-2364b0f84d52" /> </p><br /><br />
+✅ Готово! Проект успешно запущен.<br /><br />
 
-<p align="center"> <img width="1920" height="1080" alt="final" src="https://github.com/user-attachments/assets/c03acc0c-3ee9-40a9-a857-5001507dd79b" /> </p><br />
-🧭 Руководство пользователя
+<p align="center"> <img width="1920" height="1080" alt="final" src="https://github.com/user-attachments/assets/c03acc0c-3ee9-40a9-a857-5001507dd79b" /> </p><br /><br /><br />
+<hr>
+<h3>###🧭 Руководство пользователя</h3>
 🔐 Регистрация и авторизация
 После запуска создайте аккаунт.
 
-<p align="center"> <img width="1920" height="955" alt="register" src="https://github.com/user-attachments/assets/c3f74810-7ff0-459e-a3cb-c1b931dcda3d" /> </p><br />
-Затем войдите, используя указанные данные.
+<p align="center"> <img width="1920" height="955" alt="register" src="https://github.com/user-attachments/assets/c3f74810-7ff0-459e-a3cb-c1b931dcda3d" /> </p><br /><br />
+Затем войдите, используя указанные данные.<br /><br />
 
-<p align="center"> <img width="1920" height="955" alt="login" src="https://github.com/user-attachments/assets/1a2bf621-a0bf-449b-bec8-9374d96dd4b8" /> </p><br />
+<p align="center"> <img width="1920" height="955" alt="login" src="https://github.com/user-attachments/assets/1a2bf621-a0bf-449b-bec8-9374d96dd4b8" /> </p><br /><br />
 🏠 Главная страница
 После входа откроется лента постов.
 В шапке — поиск, кнопка профиля, переключатель темы.
