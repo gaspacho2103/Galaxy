@@ -1,4 +1,4 @@
-<h1 align="center">🌌 Galaxy — твой уголок в космосе идей</h1>
+<h1 align="center">🌌 Добро пожаловать в Galaxy!</h1>
 
 <br />
 
