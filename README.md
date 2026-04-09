@@ -47,7 +47,7 @@
 
 <br />
 
-<b>Шаг 1: Клонирование репозитория</b>
+<b>Шаг 1: Клонирование репозитория</b><br />
 Скачайте архив или выполните в терминале:
 
 ```bash
@@ -56,7 +56,7 @@ cd galaxy
 ```
 <p align="center"> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2ed3cf1-436c-4b04-9164-da9858ec5c24" /><br /><br /><img width="740" height="423" alt="image" src="https://github.com/user-attachments/assets/d5ee0d09-bcc7-454f-94a4-07d6feb09d46" />
 </p><br />
-<b>Шаг 2: Настройка базы данных</b>
+<b>Шаг 2: Настройка базы данных</b><br />
 Откройте MySQL WorkBench (или другую СУБД), создайте подключение. <br /><br />
 
 <p align="center"><img width="1920" height="1080" alt="mysql" src="https://github.com/user-attachments/assets/6a31d269-e149-4ec8-b280-fbf06f39bf9c" /></p><br />
