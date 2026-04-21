@@ -16,7 +16,7 @@ function Auth() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://gaspsacho21.pythonanywhere.com/authorize', {
+      const response = await fetch('http://127.0.0.1:5000/authorize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
