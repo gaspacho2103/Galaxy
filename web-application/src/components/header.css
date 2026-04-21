@@ -8,9 +8,9 @@ body {
 }
 
 .header {
-    background-color: #282c34; /* Темный фон */
-    padding: 20px 0; /* Отступы сверху и снизу */
-    color: #ebebeb; /* Цвет текста */
+    background-color: #282c34;
+    padding: 20px 0;
+    color: #ebebeb;
 
     position: fixed;
 
@@ -21,19 +21,19 @@ body {
 }
 
 .container {
-    display: flex; /* Выравнивание элементов по горизонтали */
-    justify-content: space-between; /* Распределение пространства между элементами */
-    align-items: center; /* Вертикальное выравнивание по центру */
-    max-width: 1200px; /* Максимальная ширина контейнера */
-    margin: 0 auto; /* Центрирование контейнера */
-    padding: 0 20px; /* Горизонтальные отступы */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 
     width: 100%;
 }
 
 .logo {
-    display: flex; /* Выравнивание логотипа и текста */
-    align-items: center; /* Вертикальное выравнивание по центру */
+    display: flex;
+    align-items: center;
     
     margin: 0 auto;
 
@@ -43,22 +43,22 @@ body {
 }
 
 .logo h1 {
-    margin: 0; /* Убираем отступы у заголовка */
-    font-size: 32px; /* Размер шрифта */
+    margin: 0;
+    font-size: 32px;
 
     letter-spacing: 1.6px;
 
-    /* text-transform: uppercase; */
+    
 }
 
 .logo img {
-    width: 40px; /* Ширина изображения */
-    height: auto; /* Автоматическая высота */
-    margin-left: 10px; /* Отступ слева от изображения */
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
 }
 
 .input-wrapper {
-    flex-grow: 0.85; /* Поле поиска займет оставшееся пространство */
+    flex-grow: 0.85;
 
     margin: 0 auto;
 
@@ -67,24 +67,24 @@ body {
 
 .input-wrapper input {
     width: 80%;
-    padding: 10px; /* Отступы внутри поля */
-    border: none; /* Без рамки */
-    border-radius: 5px; /* Закругление углов */
-    font-size: 16px; /* Размер шрифта */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
 
     margin: 0 auto;
 }
 
 .input-wrapper input::placeholder {
-    color: #aaa; /* Цвет текста плейсхолдера */
+    color: #aaa;
 }
 
 .buttons-wrapper {
-    display: flex; /* Выравнивание кнопок по горизонтали */
+    display: flex;
     
     margin: 0;
 
-    gap: 15px; /* Установите расстояние между элементами */
+    gap: 15px;
 }
 
 .header-button {
