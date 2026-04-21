@@ -13,7 +13,7 @@ import './profile.css';
 
 // Конфигурация API
 const API_CONFIG = {
-  baseUrl: 'https://gaspsacho21.pythonanywhere.com',
+  baseUrl: 'http://127.0.0.1:5000',
   getHeaders() {
     return {
       'Authorization': `Bearer ${localStorage.getItem('jwt')}`,
