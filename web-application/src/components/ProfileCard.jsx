@@ -72,7 +72,6 @@ function ProfileCard({ userData, onOpenPopup, isOwnProfile }) {
     return response.json();
   };
 
-  // Запросы с использованием React Query
   const { data: subscriptions, isLoading } = useQuery({
     queryKey: ['subscriptions', userData.user_id, isOwnProfile],
     queryFn: fetchSubscriptions,
