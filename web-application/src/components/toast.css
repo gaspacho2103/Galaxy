@@ -71,7 +71,6 @@
   box-shadow: 0 0 0 2px rgba(209, 17, 68, 0.3);
 }
 
-/* Типы уведомлений */
 .toast.success {
   border-left: 4px solid #4caf50;
 }
@@ -89,7 +88,6 @@
 }
 
 .toast {
-  /* ... другие стили ... */
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   transform: translateX(0);
   opacity: 1;
