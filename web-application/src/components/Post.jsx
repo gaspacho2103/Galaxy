@@ -46,7 +46,7 @@ function Post({ posts }) {
   const commentMutation = useMutation({
     mutationFn: async ({ postId, content }) => {
       const token = localStorage.getItem('jwt');
-      const response = await fetch(`https://gaspsacho21.pythonanywhere.com/comment/${postId}`, {
+      const response = await fetch(`http://127.0.0.1:5000/comment/${postId}`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -96,7 +96,7 @@ function Post({ posts }) {
         const isLiked = likedPosts.has(post.post_id);
         const likesCount = post.likes_count + (isLiked ? 1 : 0);
         const avatarUrl = post.avatar_url 
-          ? `https://gaspsacho21.pythonanywhere.com/${post.avatar_url}`
+          ? `http://127.0.0.1:5000/${post.avatar_url}`
           : profileImage;
         
 
@@ -199,7 +199,7 @@ function Post({ posts }) {
                   {post.comment_list?.length > 0 ? (
                     post.comment_list.map(comment => {
                       const commentAvatarUrl = comment.avatar_url 
-                        ? `https://gaspsacho21.pythonanywhere.com/${comment.avatar_url}`
+                        ? `http://127.0.0.1:5000/${comment.avatar_url}`
                         : profileImage;
 
                       return (
